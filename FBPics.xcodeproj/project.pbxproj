@@ -7,21 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351BBDAB1E39A84D0044903D /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351BBDAA1E39A84D0044903D /* PhotoCell.swift */; };
+		351BBDAD1E39C33E0044903D /* TappedPhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351BBDAC1E39C33E0044903D /* TappedPhotoController.swift */; };
 		353A51811E31A340005AE6A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A51801E31A340005AE6A6 /* AppDelegate.swift */; };
-		353A51831E31A340005AE6A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A51821E31A340005AE6A6 /* ViewController.swift */; };
+		353A51831E31A340005AE6A6 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A51821E31A340005AE6A6 /* LoginController.swift */; };
 		353A51861E31A340005AE6A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353A51841E31A340005AE6A6 /* Main.storyboard */; };
 		353A51881E31A340005AE6A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353A51871E31A340005AE6A6 /* Assets.xcassets */; };
 		353A518B1E31A340005AE6A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353A51891E31A340005AE6A6 /* LaunchScreen.storyboard */; };
+		353A51A71E31B70B005AE6A6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353A51A31E31B70B005AE6A6 /* Bolts.framework */; };
+		353A51A81E31B70B005AE6A6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353A51A41E31B70B005AE6A6 /* FBSDKCoreKit.framework */; };
+		353A51A91E31B70B005AE6A6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353A51A51E31B70B005AE6A6 /* FBSDKLoginKit.framework */; };
+		353A51AA1E31B70B005AE6A6 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353A51A61E31B70B005AE6A6 /* FBSDKShareKit.framework */; };
+		354F32081E391DEE006584E3 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354F32071E391DEE006584E3 /* LoadingViewController.swift */; };
+		354F320C1E39395D006584E3 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354F320B1E39395D006584E3 /* PhotoViewController.swift */; };
+		35F668501E3540A400B56E1E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6684F1E3540A400B56E1E /* User.swift */; };
+		35F668521E35474B00B56E1E /* AlbumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F668511E35474B00B56E1E /* AlbumController.swift */; };
+		35F668541E35872200B56E1E /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F668531E35872200B56E1E /* AlbumCell.swift */; };
+		66CE473AC88C9785A706853D /* Pods_FBPics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64BB0D82ADD75DEE65E5F6E /* Pods_FBPics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		351BBDAA1E39A84D0044903D /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		351BBDAC1E39C33E0044903D /* TappedPhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappedPhotoController.swift; sourceTree = "<group>"; };
 		353A517D1E31A340005AE6A6 /* FBPics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBPics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		353A51801E31A340005AE6A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		353A51821E31A340005AE6A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		353A51821E31A340005AE6A6 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = FBPics/LoginController.swift; sourceTree = "<group>"; };
 		353A51851E31A340005AE6A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		353A51871E31A340005AE6A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		353A518A1E31A340005AE6A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		353A518C1E31A340005AE6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353A51A31E31B70B005AE6A6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		353A51A41E31B70B005AE6A6 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		353A51A51E31B70B005AE6A6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		353A51A61E31B70B005AE6A6 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		353A51AB1E31D771005AE6A6 /* FBPics.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FBPics.entitlements; sourceTree = "<group>"; };
+		354F32071E391DEE006584E3 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		354F320B1E39395D006584E3 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		35F6684F1E3540A400B56E1E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		35F668511E35474B00B56E1E /* AlbumController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumController.swift; sourceTree = "<group>"; };
+		35F668531E35872200B56E1E /* AlbumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		4C1ACF5C54D7E59DADBAFD14 /* Pods-FBPics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBPics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBPics/Pods-FBPics.debug.xcconfig"; sourceTree = "<group>"; };
+		7FBAC1C85051D3B64C2628E6 /* Pods-FBPics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBPics.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBPics/Pods-FBPics.release.xcconfig"; sourceTree = "<group>"; };
+		D64BB0D82ADD75DEE65E5F6E /* Pods_FBPics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBPics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +56,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				353A51AA1E31B70B005AE6A6 /* FBSDKShareKit.framework in Frameworks */,
+				353A51A71E31B70B005AE6A6 /* Bolts.framework in Frameworks */,
+				353A51A81E31B70B005AE6A6 /* FBSDKCoreKit.framework in Frameworks */,
+				353A51A91E31B70B005AE6A6 /* FBSDKLoginKit.framework in Frameworks */,
+				66CE473AC88C9785A706853D /* Pods_FBPics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CA9AAD20E39E7B06D6671A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D64BB0D82ADD75DEE65E5F6E /* Pods_FBPics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		353A51741E31A340005AE6A6 = {
 			isa = PBXGroup;
 			children = (
+				35F6684E1E35406F00B56E1E /* Model */,
+				35F6684D1E35406C00B56E1E /* View */,
+				35F6684C1E35406900B56E1E /* Controller */,
 				353A517F1E31A340005AE6A6 /* FBPics */,
 				353A517E1E31A340005AE6A6 /* Products */,
+				F3C10AF129FAD6D8885A4AB4 /* Pods */,
+				0CA9AAD20E39E7B06D6671A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +99,64 @@
 		353A517F1E31A340005AE6A6 /* FBPics */ = {
 			isa = PBXGroup;
 			children = (
+				353A51AB1E31D771005AE6A6 /* FBPics.entitlements */,
+				353A51921E31B1F4005AE6A6 /* Frameworks */,
 				353A51801E31A340005AE6A6 /* AppDelegate.swift */,
-				353A51821E31A340005AE6A6 /* ViewController.swift */,
 				353A51841E31A340005AE6A6 /* Main.storyboard */,
 				353A51871E31A340005AE6A6 /* Assets.xcassets */,
 				353A51891E31A340005AE6A6 /* LaunchScreen.storyboard */,
 				353A518C1E31A340005AE6A6 /* Info.plist */,
 			);
 			path = FBPics;
+			sourceTree = "<group>";
+		};
+		353A51921E31B1F4005AE6A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				353A51A31E31B70B005AE6A6 /* Bolts.framework */,
+				353A51A41E31B70B005AE6A6 /* FBSDKCoreKit.framework */,
+				353A51A51E31B70B005AE6A6 /* FBSDKLoginKit.framework */,
+				353A51A61E31B70B005AE6A6 /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35F6684C1E35406900B56E1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				353A51821E31A340005AE6A6 /* LoginController.swift */,
+				35F668511E35474B00B56E1E /* AlbumController.swift */,
+				354F32071E391DEE006584E3 /* LoadingViewController.swift */,
+				354F320B1E39395D006584E3 /* PhotoViewController.swift */,
+				351BBDAC1E39C33E0044903D /* TappedPhotoController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		35F6684D1E35406C00B56E1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		35F6684E1E35406F00B56E1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35F6684F1E3540A400B56E1E /* User.swift */,
+				35F668531E35872200B56E1E /* AlbumCell.swift */,
+				351BBDAA1E39A84D0044903D /* PhotoCell.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F3C10AF129FAD6D8885A4AB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C1ACF5C54D7E59DADBAFD14 /* Pods-FBPics.debug.xcconfig */,
+				7FBAC1C85051D3B64C2628E6 /* Pods-FBPics.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 353A518F1E31A340005AE6A6 /* Build configuration list for PBXNativeTarget "FBPics" */;
 			buildPhases = (
+				6B87F8BCD9917C2D039F39BC /* [CP] Check Pods Manifest.lock */,
 				353A51791E31A340005AE6A6 /* Sources */,
 				353A517A1E31A340005AE6A6 /* Frameworks */,
 				353A517B1E31A340005AE6A6 /* Resources */,
+				DD4B0837B929F00E7ACE2B45 /* [CP] Embed Pods Frameworks */,
+				1FB4EDC2BC630572153E0C3A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +194,16 @@
 				TargetAttributes = {
 					353A517C1E31A340005AE6A6 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CH2E5XNJFR;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -131,13 +238,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FB4EDC2BC630572153E0C3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBPics/Pods-FBPics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B87F8BCD9917C2D039F39BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD4B0837B929F00E7ACE2B45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBPics/Pods-FBPics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		353A51791E31A340005AE6A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				353A51831E31A340005AE6A6 /* ViewController.swift in Sources */,
+				353A51831E31A340005AE6A6 /* LoginController.swift in Sources */,
+				35F668521E35474B00B56E1E /* AlbumController.swift in Sources */,
+				35F668541E35872200B56E1E /* AlbumCell.swift in Sources */,
 				353A51811E31A340005AE6A6 /* AppDelegate.swift in Sources */,
+				351BBDAB1E39A84D0044903D /* PhotoCell.swift in Sources */,
+				354F320C1E39395D006584E3 /* PhotoViewController.swift in Sources */,
+				35F668501E3540A400B56E1E /* User.swift in Sources */,
+				354F32081E391DEE006584E3 /* LoadingViewController.swift in Sources */,
+				351BBDAD1E39C33E0044903D /* TappedPhotoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +343,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -231,6 +394,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -258,8 +422,12 @@
 		};
 		353A51901E31A340005AE6A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C1ACF5C54D7E59DADBAFD14 /* Pods-FBPics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FBPics/FBPics.entitlements;
+				DEVELOPMENT_TEAM = CH2E5XNJFR;
+				FRAMEWORK_SEARCH_PATHS = "~/Documents/FacebookSDK";
 				INFOPLIST_FILE = FBPics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sud.FBPics;
@@ -270,8 +438,12 @@
 		};
 		353A51911E31A340005AE6A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FBAC1C85051D3B64C2628E6 /* Pods-FBPics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FBPics/FBPics.entitlements;
+				DEVELOPMENT_TEAM = CH2E5XNJFR;
+				FRAMEWORK_SEARCH_PATHS = "~/Documents/FacebookSDK";
 				INFOPLIST_FILE = FBPics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sud.FBPics;
@@ -299,6 +471,7 @@
 				353A51911E31A340005AE6A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

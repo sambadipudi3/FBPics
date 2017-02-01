@@ -1,0 +1,6 @@
+framework module Pods_FBPics {
+  umbrella header "Pods-FBPics-umbrella.h"
+
+  export *
+  module * { export * }
+}
